@@ -55,11 +55,11 @@ Fuel Needed × Fuel Price
 
 ## 🎯 Concepts Learned
 
-* `input()`
+* 'input()'
 * Variables
-* `float()`
+* 'float()'
 * Arithmetic operations
-* `round()`
+* 'round()'
 * Basic Python calculations
 
 ## 👩‍💻 Author
