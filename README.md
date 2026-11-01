@@ -1,67 +1,62 @@
 # ⛽ Fuel Cost Calculator
 
-A simple Python beginner project that calculates the amount of fuel needed and the total fuel cost for a journey.
+## About the Project
+The Fuel Cost Calculator is a simple Python project that calculates the amount of fuel required for a journey and estimates the total fuel cost based on distance, vehicle mileage, and fuel price.
 
-## ✨ Features
+## Features
+- Enter travel distance in kilometres.
+- Enter vehicle mileage (km/litre).
+- Enter fuel price per litre.
+- Calculate the required fuel.
+- Calculate the total fuel cost.
+- Display a clear fuel summary.
 
-* Takes travel distance as input
-* Takes vehicle mileage as input
-* Takes fuel price per litre
-* Calculates fuel required
-* Calculates total fuel cost
+## Formula Used
 
-## 🛠️ Technologies Used
-
-* Python
-
-## ▶️ How to Run
-
-1. Download or clone this repository.
-2. Open the project folder in VS Code or Command Prompt.
-3. Run the following command:
-
-```bash
-python fuel_cost_calculator.py
-```
-
-4. Enter the required details.
-
-## 📌 Example
-
+**Fuel Required:**
 ```text
-===== FUEL COST CALCULATOR =====
-
-Enter distance (km): 150
-Enter vehicle mileage (km/l): 15
-Enter fuel price per litre: 105
-
-Fuel needed: 10.0 litres
-Total fuel cost: ₹ 1050.0
-```
-
-## 🧠 Formula Used
-
-**Fuel Needed:**
-
-```text
-Distance ÷ Mileage
+Fuel Needed = Distance / Mileage
 ```
 
 **Total Fuel Cost:**
-
 ```text
-Fuel Needed × Fuel Price
+Total Cost = Fuel Needed × Fuel Price
 ```
 
-## 🎯 Concepts Learned
+## Example
 
-* 'input()'
-* Variables
-* 'float()'
-* Arithmetic operations
-* 'round()'
-* Basic Python calculations
+```text
+Enter distance (km): 150
+Enter vehicle mileage (km/litre): 15
+Enter the fuel price per litre: 105
 
-## 👩‍💻 Author
+===== FUEL SUMMARY =====
+Distance: 150 km
+Mileage: 15 km/litre
+Fuel needed: 10.0 litres
+Fuel price per litre: ₹105
+Total Fuel Cost: ₹1050
+```
 
-Riddhi Deshmukh
+## Technologies Used
+- Python 3
+- Basic arithmetic operations
+- User input and output
+
+## How to Run
+1. Clone or download this repository.
+2. Open the project folder.
+3. Run the Python file:
+
+```bash
+python fuel_calculator.py
+```
+
+## Learning Outcomes
+- Understanding variables and data types.
+- Using `input()` and `float()`.
+- Performing arithmetic calculations.
+- Displaying formatted results using `print()`.
+
+## Author
+**Riddhi Deshmukh**
